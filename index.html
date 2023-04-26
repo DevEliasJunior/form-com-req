@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="left--said">
+            <img src="campanhas-de-trafego-pago-em-campinas-1-1024x1024.png">
+        </div>
+        <div class="right--said">
+            <h1>Crie uma conta</h1>
+
+            <form method="POST" action="javaScript-form" class="B7validator">
+                <label>
+                    Seu nome<br>
+                    <input type="text" name="name" data-rules="required/min=2">
+                </label>
+                <label>
+                    Seu E-mail<br>
+                    <input type="email" data-rules="required/email"> 
+                </label>
+                <label>
+                    Sua senha<br>
+                    <input type="password"  data-rules="required/min=4">
+                </label>
+                <label>
+                    <input type="submit"  value="Cadastrar"/>
+                </label>
+            </form>
+
+            <div class="botao--submit">
+                Já tem uma conta?<a href="#">Faça login</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

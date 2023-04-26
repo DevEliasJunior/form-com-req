@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left--said{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left--said img{
+    width: 60%;
+    height: auto;
+}
+
+.right--said{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+form label{
+    display: block;
+    margin-top: 20px;
+}
+form input{
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.botao--submit{
+    margin-top: 20px;
+}
+
+
+
+.error{
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+    font-size: 11px;
+}
